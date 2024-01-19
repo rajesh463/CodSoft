@@ -1,0 +1,183 @@
+.Programsbox{
+display: flex;
+padding: 1%;
+align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.cardlayout1{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  background: url("image1.jpg");
+  height:220px;
+  width: 100%;
+  border:1px solid black;
+  color:whitesmoke;
+  margin: 3%;
+  background-repeat: no-repeat ;
+  background-size:cover ;
+}
+
+.text-box{
+  display:flex;
+  height:12rem;
+  width: 23.4rem;
+  opacity: 0%;
+  border:1px solid white;
+  justify-content: center;
+}
+
+.cardlayout1:hover> .text-box{
+  display:flex;
+  height:7.8rem;
+  width: 21.6rem;
+  opacity: 100%;
+  border:1px solid white;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 700ms;
+ 
+}
+
+.program-titles{background:rgba(0, 0, 0, 0.527);
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  justify-self:center;
+  transform:translateY(80px);
+  height:40px}
+
+.cardlayout1:hover> .program-titles{
+  background:rgba(0, 0, 0, 0.329);
+  width: 100%;
+  text-align: center;
+  transition-duration: 700ms;
+  transform:translateY(-1px)
+}
+
+.cardlayout1:hover{display:flex;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+   
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image1.jpg');
+      height:220px;width: 100%;
+      border:1px solid black;
+      color:whitesmoke;
+      box-shadow:1px 1px 10px 3px rgb(113, 178, 252);
+      transition-duration: 700ms;
+      background-repeat: no-repeat ;
+      background-size:cover ;
+  }
+
+
+  .cardlayout2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background: url("image2.jpeg");
+    height:220px;
+    width: 100%;
+    border:1px solid black;
+    color:whitesmoke;
+    margin: 3%;
+    background-repeat: no-repeat ;
+    background-size:cover ;
+  }
+  .cardlayout2:hover> .program-titles{
+    background:rgba(0, 0, 0, 0.329);
+    width: 100%;
+    text-align: center;
+    transition-duration: 700ms;
+    transform:translateY(-1px)
+  }
+  
+  .cardlayout2:hover{display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image2.jpeg');
+        height:220px;width: 100%;
+        border:1px solid black;
+        color:whitesmoke;
+        box-shadow:1px 1px 10px 3px rgb(113, 178, 252);
+        transition-duration: 700ms;
+        background-repeat: no-repeat ;
+        background-size:cover ;
+    }
+    .cardlayout2:hover> .text-box{
+      display:flex;
+      height:7.8rem;
+      width: 21.6rem;
+      opacity: 100%;
+      border:1px solid white;
+      justify-content: center;
+      align-items: center;
+      transition-duration: 700ms;
+    }
+
+
+
+
+  .cardlayout3{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background:url("image3.jpeg");
+    height:220px;
+    width: 100%;
+    border:1px solid black;
+    color:whitesmoke;
+    margin: 3%;
+    background-repeat: no-repeat ;
+    background-size:cover ;
+  }
+  .cardlayout3:hover> .program-titles{
+    background:rgba(0, 0, 0, 0.329);
+    width: 100%;
+    text-align: center;
+    transition-duration: 700ms;
+    transform:translateY(-1px)
+  }
+  
+  .cardlayout3:hover{display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image3.jpeg');
+        height:220px;width: 100%;
+        border:1px solid black;
+        color:#fff;
+        box-shadow:1px 1px 10px 3px rgb(113, 178, 252);
+        transition-duration: 700ms;
+        background-repeat: no-repeat ;
+        background-size:cover ;
+    }
+    .cardlayout3:hover> .text-box{
+      display:flex;
+      height:7.8rem;
+      width: 21.6rem;
+      opacity: 100%;
+      border:1px solid white;
+      justify-content: center;
+      align-items: center;
+      transition-duration: 700ms;
+    }
+    .cardlayout3:hover> .ttvd{
+       background-color: black;
+      margin-top: 30%   !important;
+      text-decoration: none !important;
+    }
+    .ttvd{
+      /* background-color: rgb(73, 73, 73); */
+      margin-top: 1%   !important;
+      text-decoration: none !important;
+      color: #fff;
+    }

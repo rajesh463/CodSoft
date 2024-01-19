@@ -1,0 +1,48 @@
+.marquee1{
+   
+    background-color: #033259 !important;
+    color: rgb(255, 255, 255);
+    margin: 0 !important;
+    overflow: hidden;
+    width: 100%!important;
+    font-size: large;
+}
+.ImageTransaction{
+    margin: 0;
+}
+.homepage-headings {
+    font-size: 20px  !important; 
+    background-color: #002f55 ;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px ;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: aliceblue;   
+}
+
+.eduminister_row{
+display: flex;
+}
+.flex-item {
+    width: calc(50% - 2em);
+    margin: 1em;
+  }
+  .contact-helpline{
+      margin: 0 10% 0 2%;
+      font-weight: 400;
+      color: rgb(253, 255, 125);
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        #slider-images{
+            height: 300px; /* height of container */
+            object-fit: cover;
+            object-position: 40% 10%; /* try 20px 10px */
+        }
+      }

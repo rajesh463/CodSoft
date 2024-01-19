@@ -1,0 +1,214 @@
+/*#logreg-forms {
+  width: 412px;
+  margin: 10vh auto;
+  background-color: #f3f3f3;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+#logreg-forms form {
+  width: 100%;
+  max-width: 410px;
+  padding: 15px;
+  margin: auto;
+}
+#logreg-forms .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+#logreg-forms .form-control:focus {
+  z-index: 2;
+}
+#logreg-forms .form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#logreg-forms .form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#logreg-forms .social-login {
+  width: 390px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+#logreg-forms .social-btn {
+  font-weight: 100;
+  color: white;
+  width: 190px;
+  font-size: 0.9rem;
+}
+#logreg-forms a {
+  display: block;
+  padding-top: 10px;
+  color: lightseagreen;
+}
+#logreg-form .lines {
+  width: 200px;
+  border: 1px solid red;
+}
+#logreg-forms button[type="submit"] {
+  margin-top: 10px;
+}
+#logreg-forms .facebook-btn {
+  background-color: #3c589c;
+}
+#logreg-forms .google-btn {
+  background-color: #df4b3b;
+  margin-right: 5px;
+}
+#logreg-forms .form-signup .social-btn {
+  width: 210px;
+}
+#logreg-forms .form-signup input {
+  margin-bottom: 2px;
+}
+.form-signup .social-login {
+  width: 210px !important;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  #logreg-forms {
+    width: 300px;
+  }
+  #logreg-forms .social-login {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #logreg-forms .social-btn {
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: white;
+    width: 200px;
+    height: 56px;
+  }
+  #logreg-forms .social-btn:nth-child(1) {
+    margin-bottom: 5px;
+  }
+  #logreg-forms .social-btn span {
+    display: none;
+  }
+  #logreg-forms .facebook-btn:after {
+    content: "Facebook";
+  }
+  #logreg-forms .google-btn:after {
+    content: "Google+";
+  }
+}
+  #SignIn-Heading-Label{
+      margin: 5% ;
+  }
+  #sign-button-login{
+    text-align: center;
+    display: block;
+    margin: 5% auto;
+    width: 40%;
+    height: 4%!important;
+    background-color: rgb(0, 151, 211) ;
+    border-color: transparent!important;
+    color: #ffffff!important;
+ 
+    font-weight: 100;
+    color: white;
+    width:95%;
+    padding: 10px !important;
+    font-size: 0.9rem;
+    }
+    #sign-button-login:hover{
+    color: #ffffff!important;
+    background-color: #00457e;
+    }
+    #google-btn-login{
+      padding: 5px;
+     
+    }
+    .social-login{
+      display: flex;
+      justify-content: center;
+    }
+    #DontHaveAccount-Login{
+      display: flex;
+      justify-content: center;
+    }
+    #Signupnewaccount-Login{
+      display: flex;
+      justify-content: center;
+    } 
+    
+*/
+
+
+#signinbox{
+  /* border: 1px solid rgb(60, 65, 87); */
+  width: 25rem;
+  margin: 5% auto;
+  place-items: center;
+  padding: 4% 0; 
+  box-shadow: #8dbee9 0px 2px 10px 0px;
+}
+
+#signinemail{
+display: block;
+margin: 5% auto;
+width: 80%;
+
+}
+#signinpass{
+display: block;
+margin: 5% auto;
+width: 80%;
+
+}
+#signtitle{
+  display: block;
+  margin: 1% auto;
+  text-align: center;
+
+
+}
+.orcont{
+  margin: 3% auto 0;
+  text-align: center;
+}
+
+#signbutton{
+  text-align: center;
+  display: block;
+  margin: 2% auto;
+  width: 80%;
+  height: 4%!important;
+  padding: 2%!important;
+  border-color: transparent!important;
+  color: #00457e!important;
+  box-shadow: 0px 0px 15px 0px #cac7c7c2!important; 
+}
+#signbutton:hover{
+  color: #ffffff!important;
+  background-color: #00457e;
+}
+.form-control{
+  background-color: transparent;
+    border-radius: 0;
+    border: 1px solid rgb(68, 60, 60);
+    height: 2.1rem;
+    width: 100%;
+    margin: 0 0 3px 0;
+    padding: 1% 1%;
+    box-sizing: content-box;
+    font-family: "IBM Plex Sans";
+}
+#createaccount{
+  position: relative;
+  color: #000000;
+  text-decoration: none!important;
+  font-weight: 600;
+}
+.signin-button{
+  margin: 5% auto!important;
+  width: 80%!important;
+
+}

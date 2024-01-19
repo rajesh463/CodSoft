@@ -1,0 +1,144 @@
+.label-admissionForm{
+    margin: 1% 3% 0 2%;
+    width: 20rem;
+    font-weight: 500;
+
+}
+
+.submit-button-admissionForm{
+   margin: 1% 5% 0 40rem;
+}
+
+.input-admissionForm
+{
+    margin: 5px 3% 0 2%;
+    padding:5px;
+    border-radius:5px;
+    width: 15rem;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border: 2px solid rgb(127, 127, 143);
+  
+}
+.biggerinput-admissionForm{
+    margin: 5px 3% 0 2%;
+    width: 30rem;
+    padding:6px;
+    display: block;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border: 2px solid rgb(127, 127, 143);
+    content: "/a";
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px) {
+    .biggerinput-admissionForm{
+        margin: 5px 3% 0 2%;
+        width: 20rem;
+        padding:6px;
+        display: block;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+        border: 2px solid rgb(127, 127, 143);
+        content: "/a";
+        background-color: aliceblue;
+    }
+  }
+.note-admission{
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    padding: 10px 0 0.5px 1rem;
+    margin: 2% 3% 1% 2%;
+}
+.marks-caste{
+    display: flex;
+    flex-direction:column;
+    margin: 2% 3% 0 2%;
+}
+
+.upload-admissionForm{
+    margin: 5px 3% 0 2%;
+}
+.submit-button-admissionForm{
+    margin: 1% auto !important;
+    text-align: center !important;
+
+}
+.submit-button-admissionForm1{
+    padding: 5%;
+}
+.input-admissionForm-marks{
+ 
+    margin: 5px 3% 0 2%;
+    display: block;
+    padding:3px;
+    border-radius:5px;
+    width: 10rem;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border: 2px solid rgb(127, 127, 143);
+}
+.tenthmarkSheet-schoolName{
+    margin: 2% 3% 0 0%;
+}
+/* .label-admissionForm{
+    margin-left: 1rem;
+} */
+.smallerlabel-admissionForm{
+    margin: 2% 3% 0 2%;
+    width: 15rem;
+    font-weight: 500;
+}
+.admission-sections{
+    border: 1px solid black;
+    padding: 1% 2% 2% 2%;
+    margin: 0 2%;
+    border-radius: 20px 20px;
+    background-color: aliceblue;
+}
+.admission-sections-headings{
+    margin-left: 3%;
+    margin-top: 2%;
+    display: inline-block;
+    padding: 0.2rem 1% ;
+    border: 1px solid rgb(0, 10, 65);
+    background-color: rgb(0, 8, 78);
+    color: aliceblue;
+}
+.AdmissionForm-container{
+    background-color:aliceblue;
+    padding:5px 0;
+}
+ #view-button{
+     margin-left: 2%;
+max-height: 2rem;
+/* border-color: rgb(0, 47, 255); */
+margin-top: 1%;
+
+}
+#view-button:hover{
+    background-color: rgba(0, 119, 255, 0.555);
+    background-color: rgba(0, 119, 255, 0.192);
+
+} 
+
+ #viewx-button{
+    max-height: 2rem;
+    color: black;
+    background-color: #ff1100;
+    margin-top: 1%;
+    margin-left: 1%;
+
+    border-color: rgb(255, 0, 0);
+
+
+}
+#viewx-button:hover{
+    background-color: #ff11004b;
+
+    color: black;
+    } 
+ 
+
+#closebutton-alert{
+   margin-right: 1%;
+}
+.Alert-admissionform{
+    margin: 0 1%;
+}

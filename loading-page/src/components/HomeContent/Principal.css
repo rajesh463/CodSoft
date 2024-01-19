@@ -1,0 +1,27 @@
+.principal-img{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+      width: 36%;
+      margin: auto;
+      position: relative;
+}
+.Principal-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    float: left;
+}
+.text-principal{
+    margin: 0 !important;
+}
+ .events-principal{
+
+
+padding: 2% 6%;
+} 
+@media only screen and (max-width: 600px) {
+    .principal-msg {
+display: block;   
+clear: left; }
+  }

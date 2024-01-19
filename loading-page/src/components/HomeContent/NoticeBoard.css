@@ -1,0 +1,54 @@
+.container {
+
+    overflow: hidden;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.marquee-notice {
+    top: 12rem;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+    background-color: aliceblue;
+}
+
+
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   8em }
+    100% { top: -11em }
+}
+
+/* Make it look pretty */
+.microsoft .marquee-notice {
+	margin: 0;
+    padding: 0 1em;
+    line-height: 1.5em;
+    font: 1em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+.mission-img{
+
+width: 20%; 
+   float: right;
+    margin:  1%;
+    padding: 2%;
+}
+.vision-img{
+
+
+    width: 20%;    float: left;
+    margin:  1%;
+    padding: 2%;
+
+}
+.vision-NoticeBoard{
+
+}
+
+
+
+
+

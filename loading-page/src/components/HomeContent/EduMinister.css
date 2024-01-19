@@ -1,0 +1,48 @@
+.flexboxedumin{
+    display: flex;
+padding: 1%;
+align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+
+
+.varshadiv{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction:column;
+      flex-wrap:wrap;
+    
+}
+.kadudiv{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+      justify-content: center;
+      flex-direction:column;
+      flex-wrap:wrap;
+    
+}
+.vandanadiv {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+      justify-content: center;
+      flex-direction:column;
+      flex-wrap:wrap;
+    }
+  .eduminimg{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+      width: 25%;
+      margin: auto;
+      position: relative;
+  }
+.edumin{
+    display: inline-block ;
+}

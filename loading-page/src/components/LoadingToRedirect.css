@@ -1,0 +1,19 @@
+.LoadingToRedirect-p{
+    
+    text-align: center;
+}
+.LoadingToRedirect-pp{
+  
+    text-align: center;
+    font-weight: 700;
+}
+.sryimg{
+   
+    text-align: center;
+    width: 20%;
+}
+.srydiv{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}

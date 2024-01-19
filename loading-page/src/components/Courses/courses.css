@@ -1,0 +1,31 @@
+/* .Program-div{
+padding: 1% 5%;
+} */
+.Program-div-Accordion{
+    margin: 1% 5%;
+}
+.timetable-program td{
+    border: 1px solid black;
+}
+.h2-program{
+    color: black;
+
+}
+.timetable-program {
+    margin: 3% auto;
+}
+.program-headings {
+    font-size: 20px  !important; 
+    background-color: #002f55 ;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px ;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: aliceblue;   
+    margin: 1% 5%;
+}
